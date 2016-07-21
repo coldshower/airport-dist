@@ -9,7 +9,7 @@ Distances between airports
 5. Look up JFK to LGA.
 
 # Things to Remember or Note
-1. Ask Questions: 
+A. Ask Questions: 
 
 For this project, it is important to understand many things before any steps are made toward implementation. 
 It shouldn't be assumed that a particular project is going to be built as a single-page application. 
@@ -23,7 +23,7 @@ Also, who are the users that you are making this app for? Isn't that, in the end
 aspect? If you aren't developing this app for its users, then who are you developing it for (assuming not for educational purposes)? The list goes on, but remember that it only benefits both parties if you ask questions
 concerning uncertainties. 
 
-2. This is not a complete project.
+B. This is not a complete project.
 
 This is only a bare minimum of potential requirements. The airport dataset that this project draws from has gaps and the app does not protect against this.
 I chose not to since this functionality depends on the type of data made available. Were I to use a different API, my code would vary. It is up to you to

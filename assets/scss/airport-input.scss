@@ -1,0 +1,33 @@
+#airport_input {
+	h1 {
+		text-align: center;
+	}
+	h3 {
+		text-align: center;
+	}
+	#inputs {
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+
+	.field {
+		margin-left: 30%;
+		margin-right: 30%;
+		margin-top: 20px;
+
+		label {
+			margin-bottom: 0;
+		}
+		input {
+			margin-top: -8px;
+			float: right;
+			clear: both;
+		}
+	}
+
+	button {
+		width: 10%;
+		margin-left: 45%;
+	}
+
+}

@@ -1,0 +1,24 @@
+<div id="airport_input">
+	<h1>Choose your airports</h1>
+	<div id="inputs">
+		<form novalidate name="airportForm" ng-submit="calculate()">
+			<div class="field">
+				<label for="origin">Origin: </label>
+				<input type="text" name="origin" ng-model="airport.origin" uib-typeahead="name as airport.name for airport in allAirports | filter: $viewValue | limitTo: 5" placeholder="Airport 1" typeahead-on-select="select($item, 'origin')" required>
+			</div>
+
+			<div class="field">
+				<label for="destination">Destination</label>
+				<input type="text" name="destination" ng-model="airport.destination" uib-typeahead="name as airport.name for airport in allAirports | filter: $viewValue | limitTo: 5" typeahead-on-select="select($item, 'destination')" placeholder="Airport 2" required>
+			</div>
+			</br>
+			<button type="submit">Calculate</button>
+		</br>
+			<span ng-bind="invalidForm()"></span>
+		</form>
+	</div>
+
+	<div id="distance">
+		<h3 ng-if="distance">Distance: {{ distance }} kilometers</h3>
+	</div>
+</div>

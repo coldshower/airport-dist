@@ -1,0 +1,53 @@
+html, body {
+  margin: 0;
+  padding: 0; }
+
+#airport_input h1 {
+  text-align: center; }
+
+#airport_input h3 {
+  text-align: center; }
+
+#airport_input #inputs {
+  margin-left: 15%;
+  margin-right: 15%; }
+
+#airport_input .field {
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 20px; }
+  #airport_input .field label {
+    margin-bottom: 0; }
+  #airport_input .field input {
+    margin-top: -8px;
+    float: right;
+    clear: both; }
+
+#airport_input button {
+  width: 10%;
+  margin-left: 45%; }
+
+#map {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 15%;
+  width: 70%;
+  height: 500px; }
+
+@media screen and (max-width: 1000px) {
+  #airport_input #inputs {
+    margin-left: 8%;
+    margin-right: 8%; }
+  #airport_input .field {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px; }
+    #airport_input .field label {
+      margin-bottom: 0; }
+    #airport_input .field input {
+      margin-top: -12px;
+      float: right;
+      clear: both; }
+  #airport_input button {
+    width: 30%;
+    margin-left: 35%; } }

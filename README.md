@@ -26,7 +26,7 @@ concerning uncertainties.
 *B. This is not a complete project.*
 
 This is only a bare minimum of potential requirements. The airport dataset that this project draws from has gaps and the app does not protect against this.
-I chose not to since this functionality depends on the type of data made available. Were I to use a different API, my code would vary. It is up to you to
+I chose not to since this functionality depends on the type of data made available. Were I to use a different API, my code would differ. It is up to you to
 ask about potential datasets to use, and build appropriate error-handling. 
 
 Some features you may choose to implement as well: persistent past routes saved to a table that can also be selected, ability to select
